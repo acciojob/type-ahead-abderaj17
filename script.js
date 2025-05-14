@@ -38,4 +38,4 @@ function clearSuggestions() {
 const typeaheadInput = document.getElementById('typeahead');
 typeaheadInput.addEventListener('input', debounce((event) => {
     fetchSuggestions(event.target.value);
-}, 500));
+}, 500)); 
